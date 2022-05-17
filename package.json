@@ -1,0 +1,25 @@
+{
+  "name": "nutria-pi",
+  "version": "1.0.0",
+  "description": "Api-rest multiplatform application to manage information and follow up on users who make nutritional inquiries.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javascript",
+    "mongoose",
+    "express",
+    "heroku",
+    "api-rest"
+  ],
+  "author": "Francisco Mizael Parra Iturralde <franciscomizaparra.24@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "express": "^4.18.1",
+    "express-jwt": "^7.7.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.3.3"
+  }
+}
